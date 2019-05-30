@@ -1,0 +1,26 @@
+.Header {
+  align-items: center;
+  background-color: var(--color-primary);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+}
+.Header-links {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.Header-links a {
+  margin: 10px;
+  color: var(--color-white);
+}
+.big {
+  height: 60vh;
+}
+.green {
+  background-color: var(--color-secondary);
+}
